@@ -1,7 +1,7 @@
 /*media sizes: 1920✅, 1600✅, 1440✅, 
 1366✅, 1280✅, 1080✅, 1024✅, 800✅, 768✅, 480✅, 425✅, 375✅, 320✅ (px)*/
 
-@media only screen and (max-width: 1599px){
+@media only screen and (max-width: 1600px){
 	html{
 		width: 1600px;
 	}
@@ -24,7 +24,7 @@
 	}
 }
 
-@media only screen and (max-width: 1439px){
+@media only screen and (max-width: 1440px){
 	html{
 		width: 1440px;
 	}
@@ -50,7 +50,7 @@
 	}
 }
 
-@media only screen and (max-width: 1365px){
+@media only screen and (max-width: 1366px){
 	html{
 		width: 1366px;
 	}
@@ -59,7 +59,7 @@
 	}
 }
 
-@media only screen and (max-width: 1279px){
+@media only screen and (max-width: 1280px){
 	html{
 		width: 1280px;
 	}
@@ -68,7 +68,7 @@
 	}
 }
 
-@media only screen and (max-width: 1079px){
+@media only screen and (max-width: 1080px){
 	html{
 		width: 1080px;
 	}
@@ -91,7 +91,7 @@
 	}
 }
 
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1024px){
 	html{
 		width: 1024px;
 	}
@@ -123,7 +123,7 @@
 	}
 }
 
-@media only screen and (max-width: 799px){
+@media only screen and (max-width: 800px){
 	html{
 		width: 800px;
 	}
@@ -146,7 +146,7 @@
 	}
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	html{
 		width: 768px;
 	}
@@ -178,7 +178,7 @@
 	}
 }
 
-@media only screen and (max-width: 479px){
+@media only screen and (max-width: 480px){
 	html{
 		width: 480px;
 	}
@@ -222,7 +222,7 @@
 	}
 }
 
-@media only screen and (max-width: 424px) {
+@media only screen and (max-width: 425px) {
 	html{
 		width: 425px;
 	}
@@ -292,7 +292,7 @@
 	}
 }
 
-@media only screen and (max-width: 374px){
+@media only screen and (max-width: 375px){
 	html{
 		width: 375px;
 	}
@@ -379,7 +379,7 @@
 	}
 }
 
-@media only screen and (max-width: 359px){
+@media only screen and (max-width: 360px){
 	html{
 		width: 360px;
 	}
@@ -403,7 +403,7 @@
 	}
 }
 
-@media only screen and (max-width: 319px){
+@media only screen and (max-width: 320px){
 	html{
 		width: 320px;
 	}
