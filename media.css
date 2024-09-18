@@ -1,5 +1,5 @@
 /*media sizes: 1920✅, 1600✅, 1440✅, 
-1366✅, 1280✅, 1024✅, 800✅, 768✅, 480✅, 425✅, 375✅, 320✅ (px)*/
+1366✅, 1280✅, 1080✅, 1024✅, 800✅, 768✅, 480✅, 425✅, 375✅, 320✅ (px)*/
 
 @media screen and (max-width: 1600px){
 	html{
@@ -57,6 +57,29 @@
 	}
 	.header{
 		width: 1280px;
+	}
+}
+
+@media screen and (max-width: 1080px){
+	html{
+		width: 1080px;
+	}
+	.header{
+		width: 1080px;
+	}
+	.block__2-rows{
+		width: 640px;
+	}
+	.block__2-txt::before {
+		top: 717px;
+		left: 660px;
+	}
+	.block__2-txt::after {
+		top: 717px;
+		right: 660px;
+	}
+	.main {
+		height: 3150px;
 	}
 }
 
