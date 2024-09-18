@@ -1,4 +1,409 @@
-@media screen and (max-width: 320px){
+/*media sizes: 1920✅, 1600✅, 1440✅, 
+1366✅, 1280✅, 1080✅, 1024✅, 800✅, 768✅, 480✅, 425✅, 375✅, 320✅ (px)*/
+
+@media only screen and (max-width: 1600px){
+	html{
+		width: 1600px;
+	}
+	.header{
+		width: 1600px;
+	}
+	.block__1-subtitle{
+		font-size: 24px;
+	}
+	.header__content-subtitle{
+		font-size: 24px;
+	}
+	.block__2-txt::before{
+		top: 680px;
+    left: 910px;
+	}
+	.block__2-txt::after{
+		top: 680px;
+    right: 910px;
+	}
+}
+
+@media only screen and (max-width: 1440px){
+	html{
+		width: 1440px;
+	}
+	.header{
+		width: 1440px;
+	}
+	.block__1-line{
+		margin-left: 45.6%;
+	}
+	.block__2-rows{
+		width: 1120px;
+	}
+	.block__2-txt::before{
+		top: 680px;
+    left: 840px;
+	}
+	.block__2-txt::after{
+		top: 680px;
+    right: 840px;
+	}
+	.main{
+		height: 2300px;
+	}
+}
+
+@media only screen and (max-width: 1366px){
+	html{
+		width: 1366px;
+	}
+	.header{
+		width: 1366px;
+	}
+}
+
+@media only screen and (max-width: 1280px){
+	html{
+		width: 1280px;
+	}
+	.header{
+		width: 1280px;
+	}
+}
+
+@media only screen and (max-width: 1080px){
+	html{
+		width: 1080px;
+	}
+	.header{
+		width: 1080px;
+	}
+	.block__2-rows{
+		width: 640px;
+	}
+	.block__2-txt::before {
+		top: 717px;
+		left: 660px;
+	}
+	.block__2-txt::after {
+		top: 717px;
+		right: 660px;
+	}
+	.main {
+		height: 3150px;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	html{
+		width: 1024px;
+	}
+	.header{
+		width: 1024px;
+	}
+	.header__contacts{
+		width: 220px;
+	}
+	.header__navigation{
+		padding: 0 50px;
+	}
+	.block__1-line{
+		margin-left: 44.6%;
+	}
+	.block__2-rows{
+		width: 620px;
+	}
+	.block__2-txt::before {
+    top: 717px;
+    left: 640px;
+	}
+	.block__2-txt::after {
+    top: 717px;
+    right: 640px;
+	}
+	.main{
+		height: 3100px;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	html{
+		width: 800px;
+	}
+	.header{
+		width: 800px;
+	}
+	.header__content-txt{
+		width: 780px;
+	}
+	.block__1-line{
+		margin-left: 42.6%;
+	}
+	.block__2-txt::before {
+		top: 755px;
+		left: 520px;
+	}
+	.block__2-txt::after {
+		top: 755px;
+		right: 520px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	html{
+		width: 768px;
+	}
+	.header{
+		width: 768px;
+	}
+	.header__navigation{
+		padding: 0 30px;
+	}
+	.header__content-txt{
+		width: 768px;
+	}
+	.header__content-txt h1{
+		font-size: 36px;
+	}
+	.block__2-txt::before {
+		top: 788px;
+		left: 510px;
+	}
+	.block__2-txt::after {
+		top: 788px;
+		right: 510px;
+	}
+	.block__2-rows{
+		width: 610px;
+	}
+	.main{
+		height: 3200px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	html{
+		width: 480px;
+	}
+	.header{
+		width: 480px;
+	}
+	.block__1-line{
+		margin-left: 37.6%;
+	}
+	.header__content-txt{
+		width: 460px;
+	}
+	.header__content-txt h1{
+		font-size: 34px;
+	}
+	.block__2-rows{
+		width: 280px;
+	}
+	.block__2-txt::before {
+		top: 861px;
+		left: 350px;
+		width: 30px;
+	}
+	.block__2-txt::after {
+		top: 861px;
+		right: 350px;
+		width: 30px;
+	}
+	.main{
+		height: 5650px;
+	}
+	.footer__sides .logo{
+		display: none;
+	}
+	.footer__sides-left p{
+		font-size: 26px;
+	}
+	.footer__right-photo{
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	html{
+		width: 425px;
+	}
+	.header{
+		width: 425px;
+	}
+	.container{
+		width: 100%;
+		height: 100%;
+	}
+	.header__navigation{
+		padding: 0 15px;
+	}
+	.header__contacts{
+		width: 160px;
+		height: 40px;
+	}
+	.header__content{
+		height: 440px;
+	}
+	.header__content-txt{
+		width: 420px;
+	}
+	.header__content h1{
+		font-size: 23px;
+	}
+	.line{
+		height: 4px;
+	}
+	.photo{
+		height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    margin: -185px auto 15px auto;
+	}
+	.block__1-line{
+		margin-left: 38.5%;
+	}
+	.block__2-txt::before{
+		top: 505px;
+    left: 330px;
+    width: 25px;
+	}
+	.block__2-txt::after{
+		top: 505px;
+    right: 330px;
+    width: 25px;
+	}
+	.block__2-rows{
+		width: 275px;
+	}
+	.main{
+		height: 5270px;
+	}
+	.footer__sides .logo{
+		display: none;
+	}
+	.footer__sides-left p{
+		font-size: 24px;
+	}
+	.footer__right-photo{
+		width: 30px;
+		height: 30px;
+	}
+	.copyright{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 375px){
+	html{
+		width: 375px;
+	}
+	.container{
+		width: 100%;
+		height: 100%;
+	}
+	.header{
+		width: 375px;
+	}
+	.header__navigation{
+		padding: 0 10px;
+	}
+	.header__content{
+		height: 475px;
+	}
+	.header__content-txt{
+		width: 365px;
+	}
+	.header__content-txt h1{
+		font-size: 28px;
+	}
+	.header__contacts{
+		width: 160px;
+		height: 30px;
+	}
+
+
+	.block__1{
+		margin: 25px 0 0 0;
+	}
+	.photo{
+		width: 200px;
+		height: 200px;
+	}
+	.block__1-txt h2{
+		font-size: 24px;
+	}
+	.block__1-line{
+		height: 3px;
+		margin-left: 36%;
+	}
+	.block__2-txt{
+		font-size: 18px;
+	}
+	.block__2-rows{
+		width: 280px;
+	}
+	.block__2-txt::before {
+		width: 30px;
+		top: 495px;
+		height: 3px;
+		left: 280px;
+	}
+	.block__2-txt::after {
+		width: 30px;
+		top: 495px;
+		height: 3px;
+		right: 280px;
+	}
+
+
+	.main{
+		height: 5250px;
+	}
+	.footer__sides .logo{
+		display: none;
+	}
+	.footer__sides{
+		height: 60px;
+	}
+	.footer__sides-left p{
+		font-size: 21px;
+	}
+	.footer__right-photo{
+		width: 20px;
+		height: 20px;
+	}
+	.copyright{
+		font-size: 14px;
+	}
+	.powered{
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 360px){
+	html{
+		width: 360px;
+	}
+	.header{
+		width: 360px;
+	}
+	.block__2-txt::before {
+		width: 30px;
+		top: 495px;
+		height: 3px;
+		left: 265px;
+	}
+	.block__2-txt::after {
+		width: 30px;
+		top: 495px;
+		height: 3px;
+		right: 265px;
+	}
+	.main {
+		height: 5250px;
+	}
+}
+
+@media only screen and (max-width: 320px){
 	html{
 		width: 320px;
 	}
@@ -10,7 +415,7 @@
 		width: 320px;
 	}
 	.block__1{
-		margin: -230px 0 0 0;
+		margin: -40px 0 0 0;
 	}
 	.block__2-rows{
 		width: 280px;
@@ -39,13 +444,13 @@
 	.block__2-txt::after{
 		width: 20px;
     height: 3px;
-    top: 300px;
+    top: 290px;
     right: 220px;
 	}
 	.block__2-txt::before {
     width: 20px;
     height: 3px;
-    top: 300px;
+    top: 290px;
     left: 220px;
 	}
 	.header__contacts{
@@ -104,3 +509,4 @@
 		height: 28px;
 	}
 }
+
