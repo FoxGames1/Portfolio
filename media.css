@@ -1,7 +1,7 @@
 /*media sizes: 1920✅, 1600✅, 1440✅, 
 1366✅, 1280✅, 1080✅, 1024✅, 800✅, 768✅, 480✅, 425✅, 375✅, 320✅ (px)*/
 
-@media only screen and (max-width: 1600px){
+@media only screen and (max-width: 1599px){
 	html{
 		width: 1600px;
 	}
@@ -14,9 +14,17 @@
 	.header__content-subtitle{
 		font-size: 24px;
 	}
+	.block__2-txt::before{
+		top: 680px;
+    left: 910px;
+	}
+	.block__2-txt::after{
+		top: 680px;
+    right: 910px;
+	}
 }
 
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 1439px){
 	html{
 		width: 1440px;
 	}
@@ -30,11 +38,11 @@
 		width: 1120px;
 	}
 	.block__2-txt::before{
-		top: 660px;
+		top: 680px;
     left: 840px;
 	}
 	.block__2-txt::after{
-		top: 660px;
+		top: 680px;
     right: 840px;
 	}
 	.main{
@@ -42,7 +50,7 @@
 	}
 }
 
-@media only screen and (max-width: 1366px){
+@media only screen and (max-width: 1365px){
 	html{
 		width: 1366px;
 	}
@@ -51,7 +59,7 @@
 	}
 }
 
-@media only screen and (max-width: 1280px){
+@media only screen and (max-width: 1279px){
 	html{
 		width: 1280px;
 	}
@@ -60,7 +68,7 @@
 	}
 }
 
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 1079px){
 	html{
 		width: 1080px;
 	}
@@ -83,7 +91,7 @@
 	}
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1023px){
 	html{
 		width: 1024px;
 	}
@@ -103,11 +111,11 @@
 		width: 620px;
 	}
 	.block__2-txt::before {
-    top: 657px;
+    top: 717px;
     left: 640px;
 	}
 	.block__2-txt::after {
-    top: 657px;
+    top: 717px;
     right: 640px;
 	}
 	.main{
@@ -115,7 +123,7 @@
 	}
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 799px){
 	html{
 		width: 800px;
 	}
@@ -129,16 +137,16 @@
 		margin-left: 42.6%;
 	}
 	.block__2-txt::before {
-		top: 687px;
+		top: 755px;
 		left: 520px;
 	}
 	.block__2-txt::after {
-		top: 687px;
+		top: 755px;
 		right: 520px;
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	html{
 		width: 768px;
 	}
@@ -154,23 +162,23 @@
 	.header__content-txt h1{
 		font-size: 36px;
 	}
-	.block__2-txt::before{
-		top: 685px;
+	.block__2-txt::before {
+		top: 788px;
 		left: 510px;
 	}
-	.block__2-txt::after{
-		top: 685px;
+	.block__2-txt::after {
+		top: 788px;
 		right: 510px;
 	}
 	.block__2-rows{
 		width: 610px;
 	}
 	.main{
-		height: 3100px;
+		height: 3200px;
 	}
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 479px){
 	html{
 		width: 480px;
 	}
@@ -190,17 +198,17 @@
 		width: 280px;
 	}
 	.block__2-txt::before {
-		top: 773px;
+		top: 861px;
 		left: 350px;
 		width: 30px;
 	}
 	.block__2-txt::after {
-		top: 773px;
+		top: 861px;
 		right: 350px;
 		width: 30px;
 	}
 	.main{
-		height: 5550px;
+		height: 5650px;
 	}
 	.footer__sides .logo{
 		display: none;
@@ -214,7 +222,7 @@
 	}
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 424px) {
 	html{
 		width: 425px;
 	}
@@ -254,20 +262,20 @@
 		margin-left: 38.5%;
 	}
 	.block__2-txt::before{
-		top: 425px;
-    left: 340px;
-		width: 25px;
+		top: 505px;
+    left: 330px;
+    width: 25px;
 	}
 	.block__2-txt::after{
-		top: 425px;
-    right: 340px;
-		width: 25px;
+		top: 505px;
+    right: 330px;
+    width: 25px;
 	}
 	.block__2-rows{
 		width: 275px;
 	}
 	.main{
-		height: 5200px;
+		height: 5270px;
 	}
 	.footer__sides .logo{
 		display: none;
@@ -284,7 +292,7 @@
 	}
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 374px){
 	html{
 		width: 375px;
 	}
@@ -333,22 +341,22 @@
 	.block__2-rows{
 		width: 280px;
 	}
-	.block__2-txt::before{
+	.block__2-txt::before {
 		width: 30px;
-		top: 407px;
+		top: 495px;
 		height: 3px;
 		left: 280px;
 	}
-	.block__2-txt::after{
+	.block__2-txt::after {
 		width: 30px;
-		top: 407px;
+		top: 495px;
 		height: 3px;
 		right: 280px;
 	}
 
 
 	.main{
-		height: 5170px;
+		height: 5250px;
 	}
 	.footer__sides .logo{
 		display: none;
@@ -371,7 +379,7 @@
 	}
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 359px){
 	html{
 		width: 360px;
 	}
@@ -395,7 +403,7 @@
 	}
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 319px){
 	html{
 		width: 320px;
 	}
