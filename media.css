@@ -1,7 +1,7 @@
 /*media sizes: 1920✅, 1600✅, 1440✅, 
 1366✅, 1280✅, 1080✅, 1024✅, 800✅, 768✅, 480✅, 425✅, 375✅, 320✅ (px)*/
 
-@media screen and (max-width: 1600px){
+@media only screen and (max-width: 1600px){
 	html{
 		width: 1600px;
 	}
@@ -16,7 +16,7 @@
 	}
 }
 
-@media screen and (max-width: 1440px){
+@media only screen and (max-width: 1440px){
 	html{
 		width: 1440px;
 	}
@@ -42,7 +42,7 @@
 	}
 }
 
-@media screen and (max-width: 1366px){
+@media only screen and (max-width: 1366px){
 	html{
 		width: 1366px;
 	}
@@ -51,7 +51,7 @@
 	}
 }
 
-@media screen and (max-width: 1280px){
+@media only screen and (max-width: 1280px){
 	html{
 		width: 1280px;
 	}
@@ -60,7 +60,7 @@
 	}
 }
 
-@media screen and (max-width: 1080px){
+@media only screen and (max-width: 1080px){
 	html{
 		width: 1080px;
 	}
@@ -83,7 +83,7 @@
 	}
 }
 
-@media screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px){
 	html{
 		width: 1024px;
 	}
@@ -115,7 +115,7 @@
 	}
 }
 
-@media screen and (max-width: 800px){
+@media only screen and (max-width: 800px){
 	html{
 		width: 800px;
 	}
@@ -138,7 +138,7 @@
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 	html{
 		width: 768px;
 	}
@@ -170,7 +170,7 @@
 	}
 }
 
-@media screen and (max-width: 480px){
+@media only screen and (max-width: 480px){
 	html{
 		width: 480px;
 	}
@@ -214,7 +214,7 @@
 	}
 }
 
-@media screen and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
 	html{
 		width: 425px;
 	}
@@ -284,7 +284,7 @@
 	}
 }
 
-@media screen and (max-width: 375px){
+@media only screen and (max-width: 375px){
 	html{
 		width: 375px;
 	}
@@ -371,7 +371,31 @@
 	}
 }
 
-@media screen and (max-width: 320px){
+@media only screen and (max-width: 360px){
+	html{
+		width: 360px;
+	}
+	.header{
+		width: 360px;
+	}
+	.block__2-txt::before {
+		width: 30px;
+		top: 495px;
+		height: 3px;
+		left: 265px;
+	}
+	.block__2-txt::after {
+		width: 30px;
+		top: 495px;
+		height: 3px;
+		right: 265px;
+	}
+	.main {
+		height: 5250px;
+	}
+}
+
+@media only screen and (max-width: 320px){
 	html{
 		width: 320px;
 	}
